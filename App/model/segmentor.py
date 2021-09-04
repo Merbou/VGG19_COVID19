@@ -143,7 +143,6 @@ class Lung():
         return input    
 
 
-
     def load(self):
         self.model = tf.keras.models.load_model(config['STORE']+"unet")
         return self.model    
